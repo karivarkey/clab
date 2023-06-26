@@ -7,7 +7,7 @@ void reverse(char s[]);
 
 void main()
 {
-    char str[20], rev[30];
+    char str[20];
     printf("Enter the word : ");
     scanf("%s", str);  // Input string
     reverse(str);      // calling the function
